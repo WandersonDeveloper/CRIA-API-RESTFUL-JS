@@ -25,7 +25,7 @@ Este é um modelo de API RESTful utilizando Node.js, Express e Mongoose, com pr�
 
 - Clone o repositório e instale as dependências:
 
-git clone https://github.com/seu-usuario/restful-api.git
+git clone https:[//github.com/seu-usuario/restful-api.git](https://github.com/WandersonDeveloper/cria-API)
 cd restful-api
 - node setup-restful-api.js
 - npm install
@@ -95,22 +95,22 @@ POST /api/users
 
 ## Boas Práticas
 
-   # Organização e Modularização
+   ### Organização e Modularização
         - Mantenha a separação de responsabilidades: cada arquivo deve ter um propósito claro (por exemplo, controllers para lógica de rotas e services para regras de negócios).
 
         - Siga a convenção de nomenclatura para facilitar a manutenção e entendimento do código.
 
-   #  Autenticação e Autorização
+   ###  Autenticação e Autorização
 
         - Use JWT para autenticação e adicione um middleware para verificar a autenticidade dos tokens.
 
         - Garanta que endpoints sensíveis estejam protegidos e só possam ser acessados por usuários autorizados.
 
-   # Tratamento de Erros
+   ### Tratamento de Erros
         - Use um middleware central para tratamento de erros, como em middlewares/errorHandler.js.
         - Retorne mensagens claras e significativas para o usuário, utilizando códigos de status HTTP adequados.
 
-   # Validação de Dados
+   ### Validação de Dados
 
         - Utilize bibliotecas como express-validator para garantir que os dados recebidos pelas requisições estejam corretos.
         - Valide os dados de entrada no controllers para garantir que o que é salvo no banco de dados seja seguro e válido.
