@@ -27,6 +27,7 @@ Este é um modelo de API RESTful utilizando Node.js, Express e Mongoose, com pr�
 
 git clone https://github.com/seu-usuario/restful-api.git
 cd restful-api
+- node setup-restful-api.js
 - npm install
 
 ## Configuração
