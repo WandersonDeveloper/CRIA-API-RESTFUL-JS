@@ -25,7 +25,7 @@ Este é um modelo de API RESTful utilizando Node.js, Express e Mongoose, com pr�
 
 - Clone o repositório e instale as dependências:
 
-git clone https:[//github.com/seu-usuario/restful-api.git](https://github.com/WandersonDeveloper/cria-API)
+git clone 
 cd restful-api
 - node setup-restful-api.js
 - npm install
