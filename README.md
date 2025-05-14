@@ -44,26 +44,26 @@ cd restful-api
 
 ## Estrutura do Projeto
 /src
- ## /controllers    # Lógica das rotas
+ ### /controllers    # Lógica das rotas
   
- ##  /models         # Modelos do banco de dados
+ ###  /models         # Modelos do banco de dados
   
- ##  /middlewares    # Autenticação, validações e tratamento de erros
+ ###  /middlewares    # Autenticação, validações e tratamento de erros
 
 
- ## /routes         # Definição de rotas
+ ### /routes         # Definição de rotas
   
- ##  /services       # Lógica de negócios
+ ###  /services       # Lógica de negócios
   
- ## /utils          # Funções auxiliares
+ ### /utils          # Funções auxiliares
   
- ##  app.js          # Configuração do servidor Express
+ ###  app.js          # Configuração do servidor Express
   
- ## config.js       # Configurações do projeto
+ ### config.js       # Configurações do projeto
   
- ## .env              # Variáveis de ambiente
+ ### .env              # Variáveis de ambiente
 
-## Execução
+### Execução
 
 - npm start
 - A API estará disponível em http://localhost:3000.
