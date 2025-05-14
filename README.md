@@ -44,15 +44,24 @@ cd restful-api
 
 ## Estrutura do Projeto
 /src
-  /controllers    # Lógica das rotas
-  /models         # Modelos do banco de dados
-  /middlewares    # Autenticação, validações e tratamento de erros
-  /routes         # Definição de rotas
-  /services       # Lógica de negócios
-  /utils          # Funções auxiliares
-  app.js          # Configuração do servidor Express
-  config.js       # Configurações do projeto
-.env              # Variáveis de ambiente
+ ## /controllers    # Lógica das rotas
+  
+ ##  /models         # Modelos do banco de dados
+  
+ ##  /middlewares    # Autenticação, validações e tratamento de erros
+
+
+ ## /routes         # Definição de rotas
+  
+ ##  /services       # Lógica de negócios
+  
+ ## /utils          # Funções auxiliares
+  
+ ##  app.js          # Configuração do servidor Express
+  
+ ## config.js       # Configurações do projeto
+  
+ ## .env              # Variáveis de ambiente
 
 ## Execução
 
